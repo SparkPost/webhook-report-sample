@@ -1,0 +1,16 @@
+{
+    "name": "SparkPost Recipient OS Preferences",
+    "description": "Build a report of recipient OS usage from SparkPost click events and the User-Agent header",
+    "repository": "https://github.com/SparkPost/webhook-report-sample",
+    "success_url": "/",
+    "keywords": [
+        "sparkpost",
+        "email",
+        "webhook",
+        "user-agent",
+        "os"
+    ],
+    "addons": [
+      { "plan": "heroku-postgresql:hobby-dev" }
+    ]
+}
